@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2de8af80-33d4-455a-9dab-d5c67da2bbbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source SDK">
+      <UniqueIdentifier>{d9544520-642e-40c5-9d14-4c50e5f8e872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{4680a47c-72c8-47e3-ad72-4a3f5425e8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{b1e323fe-fe0f-411f-976f-ace35e529b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{8e0fe938-06cd-4f6f-9485-c95daa9b82d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offsets">
+      <UniqueIdentifier>{1dcff622-2e7b-420a-8833-4b83af3a2701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source SDK\EngineTrace">
+      <UniqueIdentifier>{b2803f72-ae33-4b1b-8d24-5c41679c1ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source SDK\ClientEntity">
+      <UniqueIdentifier>{f4bf7e7b-f882-41a3-a49c-5cba164717d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMTHook">
+      <UniqueIdentifier>{1f067ba7-a0da-445f-9c5b-215bc03cd67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{51c9a72c-c796-4466-aae4-294c2c8e4e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{d76cd98f-e662-4b6f-91a4-3b6836d44ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{1f59815f-ca2b-4118-884d-3685088ca186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source SDK\Checksum">
+      <UniqueIdentifier>{9303432d-dccb-4b3f-9e88-2bd30365d4c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\EnginePrediction">
+      <UniqueIdentifier>{63931a26-580a-4152-af09-a974eb5ae29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source SDK\Prediction">
+      <UniqueIdentifier>{1340c019-7fdb-4fe3-8d34-3b9cd84281c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{f43bd5c9-5c85-4735-bcce-abb0e30705b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{893fe5ed-b002-4e07-9e55-0ba8a8028d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{29fb4f7d-e605-4ddb-a2cd-b6044d31ab67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Miscellaneous">
+      <UniqueIdentifier>{be073815-c812-409e-9b37-2284a6d48de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\stdafx">
+      <UniqueIdentifier>{77eb4259-509d-44d2-89f1-1ecfb212e918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum.cpp">
+      <Filter>Source SDK\Checksum</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePrediction.cpp">
+      <Filter>Features\EnginePrediction</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscFeatures.cpp">
+      <Filter>Features\Miscellaneous</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.hpp">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VMatrix.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IVEngineClient.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollideable.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.hpp">
+      <Filter>Source SDK\EngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntity.hpp">
+      <Filter>Source SDK\ClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.hpp">
+      <Filter>Source SDK\ClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.hpp">
+      <Filter>Source SDK\ClientEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.hpp">
+      <Filter>Source SDK\EngineTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRenderer.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>VMTHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.hpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum.hpp">
+      <Filter>Source SDK\Checksum</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePrediction.hpp">
+      <Filter>Features\EnginePrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameMovement.hpp">
+      <Filter>Source SDK\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="IMoveHelper.hpp">
+      <Filter>Source SDK\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.hpp">
+      <Filter>Source SDK\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVarsBase.hpp">
+      <Filter>Source SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.hpp">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFeatures.hpp">
+      <Filter>Features\Miscellaneous</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

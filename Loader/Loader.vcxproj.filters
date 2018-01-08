@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{acacd2e9-a297-48a0-80b3-5ba091dcdc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{b994c82b-09b9-43ec-af8a-f33d125c2167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\stdafx">
+      <UniqueIdentifier>{7c738af1-1b38-46ae-9b9b-046b8a1fd9fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.hpp">
+      <Filter>Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
