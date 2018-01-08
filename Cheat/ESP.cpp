@@ -108,6 +108,9 @@ void CESP::DrawPlayer( CBaseEntity * pEntity )
 
 	std::int32_t nClassID = pEntity->GetClientClass()->m_ClassID;
 
+	g_Interfaces->Surface->DrawSetTextFont( m_ESPFont );
+	g_Interfaces->Surface->DrawSetTextColor( 255, 255, 255, 255 );
+
 	if (nClassID == ClassID::Infected)
 	{
 		static bool b = false;
@@ -121,11 +124,8 @@ void CESP::DrawPlayer( CBaseEntity * pEntity )
 			b = true;
 		}
 
-		g_Interfaces->Surface->DrawSetTextColor( 255, 255, 255, 255 );
 		g_Interfaces->Surface->DrawSetTextPos( rect.left, rect.bottom );
 		g_Interfaces->Surface->DrawPrintText( wbuf, wcslen( wbuf ) );
-
-		return;
 	}
 
 	else if (pEntity->GetGroup() == GROUP_SPECIAL)
@@ -138,8 +138,6 @@ void CESP::DrawPlayer( CBaseEntity * pEntity )
 			g_Interfaces->Surface->DrawSetTextPos( rect.left, rect.bottom );
 			g_Interfaces->Surface->DrawPrintText( wbuf, wcslen( wbuf ) );
 		}
-
-		return;
 	}
 
 	else

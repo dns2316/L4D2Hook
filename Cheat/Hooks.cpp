@@ -42,7 +42,7 @@ void __fastcall Hooks::SceneEnd( void * thisptr, void * edx )
 	if (!pLocal)
 		return;
 
-	IMaterial* pMaterial = nullptr;
+	static IMaterial* pMaterial = nullptr;
 	if (!pMaterial)
 	{
 		pMaterial = g_Interfaces->MaterialSystem->FindMaterial( "debug/debugambientcube", "Model textures" );

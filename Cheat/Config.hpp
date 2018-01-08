@@ -12,7 +12,7 @@ namespace Config
 	struct SConfig
 	{
 		std::int32_t m_nAimMode = AIMBOT_MODE::AIMBOT_SILENT;
-		std::int32_t m_nAimkey = 5;
+		std::int32_t m_nAimkey = 1;
 		bool m_bChams = false;
 		bool m_bESP = false;
 	};
